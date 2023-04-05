@@ -39,17 +39,34 @@ INNER JOIN address ON address.address_id = staff.address_id;
 SELECT film.title AS Film, language.name AS Language
 FROM film
 INNER JOIN language ON film.language_id = language.language_id
-WHERE language.name IN('English');
+WHERE language.name IN('English', 'Italian');
 
 -- 6 Query
 -- Display the total amount rung up by each staff member in August of 2005.
-select a.first_name, a.last_name, sum(b.amount)
-from staff as a 
-inner join payment as b
-using (staff_id)
-where payment_date > "2005-08-01" AND payment_date < "2005-08-31"
-group by staff_id
-order by staff_id desc;
+SELECT a.first_name, a.last_name, sum(b.amount)
+FROM staff AS a 
+INNER JOIN payment AS b
+USING (staff_id)
+WHERE payment_date > "2005-08-01" AND payment_date < "2005-08-31"
+GROUP BY staff_id
+ORDER BY staff_id DESC;
 
 -- 7 Query
 -- List each film and the number of actors who are listed for that film.
+SELECT film.title AS Film, COUNT(*) AS Actor_count 
+FROM film 
+INNER JOIN film_actor ON film.film_id = film_actor.film_id 
+GROUP BY film.title;
+
+-- 8 Query
+-- Using the tables payment and customer and the JOIN command, list the total paid by each customer. List the customers alphabetically by last name.
+SELECT customer.last_name AS Last_name, COUNT(payment.payment_id) AS Total_amount
+FROM customer
+INNER JOIN payment ON customer.customer_id = payment.customer_id
+GROUP BY customer.customer_id
+ORDER BY Last_name ASC;
+
+-- 9 Query
+-- Write sql statement to check if you can find any actor who never participated in any film.
+SELECT ac.first_name, ac.last_name AS Full_name
+FROM actor; 
