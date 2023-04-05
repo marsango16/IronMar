@@ -49,6 +49,14 @@ WHERE address_id IN (
 															SELECT country_id
                                                             FROM country
                                                             WHERE country = 'Canada')));
-                                                            
--- 6 Subquery
--- Which are films starred by the most prolific actor? Most prolific actor is defined as the actor that has acted in the most number of films. First you will have to find the most prolific actor and then use that actor_id to find the different films that he/she starred.                    
+
+# Same with joins. 
+SELECT a.first_name, a.last_name, a.email 
+FROM customer as a 
+LEFT JOIN address 
+USING (address_id)     
+LEFT JOIN city 
+USING (city_id)          
+LEFT JOIN country USING (country_id)             
+WHERE country = 'Canada';
+
