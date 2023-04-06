@@ -37,7 +37,7 @@ WHERE film_id IN (SELECT film_id
 
 -- 5 Subquery
 -- Get name and email from customers from Canada using subqueries. Do the same with joins. Note that to create a join, you will have to identify the correct tables with their primary keys and foreign keys, that will help you get the relevant information.
-SELECT First_name, email
+SELECT First_name, Last_name, email
 FROM customer
 WHERE address_id IN (
 					SELECT address_id
@@ -50,13 +50,29 @@ WHERE address_id IN (
                                                             FROM country
                                                             WHERE country = 'Canada')));
 
-# Same with joins. 
+# Same with JOINS.  
 SELECT a.first_name, a.last_name, a.email 
 FROM customer as a 
-LEFT JOIN address 
-USING (address_id)     
-LEFT JOIN city 
-USING (city_id)          
-LEFT JOIN country USING (country_id)             
-WHERE country = 'Canada';
+	INNER JOIN address 
+	USING (address_id)     
+		INNER JOIN city 
+		USING (city_id)          
+			INNER JOIN country USING (country_id)             
+			WHERE country = 'Canada';
+
+# Using LEFT JOIN
+SELECT a.first_name, a.last_name, a.email 
+FROM customer AS a 
+LEFT JOIN address AS ad ON a.address_id = ad.address_id
+LEFT JOIN city AS c ON ad.city_id = c.city_id
+LEFT JOIN country AS ct ON c.country_id = ct.country_id
+WHERE ct.country = 'Canada';
+
+# Using INNER JOIN
+SELECT a.first_name, a.last_name, a.email 
+FROM customer AS a 
+INNER JOIN address AS ad ON a.address_id = ad.address_id
+INNER JOIN city AS c ON ad.city_id = c.city_id
+INNER JOIN country AS ct ON c.country_id = ct.country_id
+WHERE ct.country = 'Canada';
 
