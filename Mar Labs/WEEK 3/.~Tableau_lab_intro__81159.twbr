@@ -1,0 +1,1548 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='US_crime_dataset Mar' inline='true' name='federated.1mtjyao0cfwkpt14be6m90bp0ke5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='us_crime_dataset (1)' name='excel-direct.09wn6zk0941fpb123k54z0ou5an8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/marsanchez/Desktop/us_crime_dataset (1).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.09wn6zk0941fpb123k54z0ou5an8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Record ID' ordinal='0' />
+            <column datatype='string' name='Agency Code' ordinal='1' />
+            <column datatype='string' name='Agency Name' ordinal='2' />
+            <column datatype='string' name='Agency Type' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='State' ordinal='5' />
+            <column datatype='integer' name='Year' ordinal='6' />
+            <column datatype='string' name='Month' ordinal='7' />
+            <column datatype='integer' name='Incident' ordinal='8' />
+            <column datatype='string' name='Crime Type' ordinal='9' />
+            <column datatype='string' name='Crime Solved' ordinal='10' />
+            <column datatype='string' name='Victim Sex' ordinal='11' />
+            <column datatype='integer' name='Victim Age' ordinal='12' />
+            <column datatype='string' name='Victim Race' ordinal='13' />
+            <column datatype='string' name='Victim Ethnicity' ordinal='14' />
+            <column datatype='string' name='Perpetrator Sex' ordinal='15' />
+            <column datatype='integer' name='Perpetrator Age' ordinal='16' />
+            <column datatype='string' name='Perpetrator Race' ordinal='17' />
+            <column datatype='string' name='Perpetrator Ethnicity' ordinal='18' />
+            <column datatype='string' name='Relationship' ordinal='19' />
+            <column datatype='string' name='Weapon' ordinal='20' />
+            <column datatype='integer' name='Victim Count' ordinal='21' />
+            <column datatype='integer' name='Perpetrator Count' ordinal='22' />
+            <column datatype='string' name='Record Source' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.09wn6zk0941fpb123k54z0ou5an8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Record ID' ordinal='0' />
+            <column datatype='string' name='Agency Code' ordinal='1' />
+            <column datatype='string' name='Agency Name' ordinal='2' />
+            <column datatype='string' name='Agency Type' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='State' ordinal='5' />
+            <column datatype='integer' name='Year' ordinal='6' />
+            <column datatype='string' name='Month' ordinal='7' />
+            <column datatype='integer' name='Incident' ordinal='8' />
+            <column datatype='string' name='Crime Type' ordinal='9' />
+            <column datatype='string' name='Crime Solved' ordinal='10' />
+            <column datatype='string' name='Victim Sex' ordinal='11' />
+            <column datatype='integer' name='Victim Age' ordinal='12' />
+            <column datatype='string' name='Victim Race' ordinal='13' />
+            <column datatype='string' name='Victim Ethnicity' ordinal='14' />
+            <column datatype='string' name='Perpetrator Sex' ordinal='15' />
+            <column datatype='integer' name='Perpetrator Age' ordinal='16' />
+            <column datatype='string' name='Perpetrator Race' ordinal='17' />
+            <column datatype='string' name='Perpetrator Ethnicity' ordinal='18' />
+            <column datatype='string' name='Relationship' ordinal='19' />
+            <column datatype='string' name='Weapon' ordinal='20' />
+            <column datatype='integer' name='Victim Count' ordinal='21' />
+            <column datatype='integer' name='Perpetrator Count' ordinal='22' />
+            <column datatype='string' name='Record Source' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X10001:no:A1:X10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Record ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Record ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Agency Code]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Agency Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Agency Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Agency Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agency Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Agency Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Agency Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Incident]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Incident</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Crime Type]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crime Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime Solved</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Crime Solved]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crime Solved</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Victim Sex]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Victim Sex</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victim Age]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Victim Age</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Race</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Victim Race]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Victim Race</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Ethnicity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Victim Ethnicity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Victim Ethnicity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Sex</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Perpetrator Sex]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Perpetrator Sex</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Perpetrator Age]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Perpetrator Age</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Race</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Perpetrator Race]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Perpetrator Race</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Ethnicity</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Perpetrator Ethnicity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Perpetrator Ethnicity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Relationship]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Relationship</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weapon</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Weapon]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Weapon</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Victim Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Victim Count]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Victim Count</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perpetrator Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Perpetrator Count]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Perpetrator Count</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record Source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Record Source]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Record Source</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E2EDC187405E4FE193108DD647B931A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='integer' name='[Record ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Year (copy)' datatype='date' datatype-customized='true' name='[Year (copy)_5711056921255067649]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='DATE(DATEPARSE ( &quot;yyyy&quot;, STR([Year]) )) ' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_E2EDC187405E4FE193108DD647B931A8]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='State, City'>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+        <semantic-value key='[ZipCode].[Name]' value='%null%' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_E2EDC187405E4FE193108DD647B931A8'>
+            <properties context=''>
+              <relation connection='excel-direct.09wn6zk0941fpb123k54z0ou5an8' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:X10001:no:A1:X10001:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Record ID' ordinal='0' />
+                  <column datatype='string' name='Agency Code' ordinal='1' />
+                  <column datatype='string' name='Agency Name' ordinal='2' />
+                  <column datatype='string' name='Agency Type' ordinal='3' />
+                  <column datatype='string' name='City' ordinal='4' />
+                  <column datatype='string' name='State' ordinal='5' />
+                  <column datatype='integer' name='Year' ordinal='6' />
+                  <column datatype='string' name='Month' ordinal='7' />
+                  <column datatype='integer' name='Incident' ordinal='8' />
+                  <column datatype='string' name='Crime Type' ordinal='9' />
+                  <column datatype='string' name='Crime Solved' ordinal='10' />
+                  <column datatype='string' name='Victim Sex' ordinal='11' />
+                  <column datatype='integer' name='Victim Age' ordinal='12' />
+                  <column datatype='string' name='Victim Race' ordinal='13' />
+                  <column datatype='string' name='Victim Ethnicity' ordinal='14' />
+                  <column datatype='string' name='Perpetrator Sex' ordinal='15' />
+                  <column datatype='integer' name='Perpetrator Age' ordinal='16' />
+                  <column datatype='string' name='Perpetrator Race' ordinal='17' />
+                  <column datatype='string' name='Perpetrator Ethnicity' ordinal='18' />
+                  <column datatype='string' name='Relationship' ordinal='19' />
+                  <column datatype='string' name='Weapon' ordinal='20' />
+                  <column datatype='integer' name='Victim Count' ordinal='21' />
+                  <column datatype='integer' name='Perpetrator Count' ordinal='22' />
+                  <column datatype='string' name='Record Source' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Data_Marketing_Customer_Analysis_Round3' inline='true' name='federated.040ltza0ie9qli15fo0vq1bb77hr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data_Marketing_Customer_Analysis_Round3' name='textscan.0nx18iy0zzywld10gdfhz0s4sck8'>
+            <connection class='textscan' directory='/Users/marsanchez/Downloads' filename='Data_Marketing_Customer_Analysis_Round3.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0nx18iy0zzywld10gdfhz0s4sck8' name='Data_Marketing_Customer_Analysis_Round3.csv' table='[Data_Marketing_Customer_Analysis_Round3#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES'>
+            <column datatype='string' name='region' ordinal='0' />
+            <column datatype='integer' name='customer_lifetime_value' ordinal='1' />
+            <column datatype='string' name='response' ordinal='2' />
+            <column datatype='string' name='coverage' ordinal='3' />
+            <column datatype='string' name='education' ordinal='4' />
+            <column datatype='date' name='effective_to_date' ordinal='5' />
+            <column datatype='string' name='month' ordinal='6' />
+            <column datatype='string' name='employment_status' ordinal='7' />
+            <column datatype='string' name='gender' ordinal='8' />
+            <column datatype='integer' name='income' ordinal='9' />
+            <column datatype='string' name='location_code' ordinal='10' />
+            <column datatype='string' name='marital_status' ordinal='11' />
+            <column datatype='integer' name='monthly_premium_auto' ordinal='12' />
+            <column datatype='integer' name='months_since_last_claim' ordinal='13' />
+            <column datatype='integer' name='months_since_policy_inception' ordinal='14' />
+            <column datatype='integer' name='number_of_open_complaints' ordinal='15' />
+            <column datatype='integer' name='number_of_policies' ordinal='16' />
+            <column datatype='string' name='policy_type' ordinal='17' />
+            <column datatype='string' name='policy' ordinal='18' />
+            <column datatype='string' name='renew_offer_type' ordinal='19' />
+            <column datatype='string' name='sales_channel' ordinal='20' />
+            <column datatype='integer' name='total_claim_amount' ordinal='21' />
+            <column datatype='string' name='vehicle_class' ordinal='22' />
+            <column datatype='string' name='vehicle_size' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0nx18iy0zzywld10gdfhz0s4sck8' name='Data_Marketing_Customer_Analysis_Round3.csv' table='[Data_Marketing_Customer_Analysis_Round3#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES'>
+            <column datatype='string' name='region' ordinal='0' />
+            <column datatype='integer' name='customer_lifetime_value' ordinal='1' />
+            <column datatype='string' name='response' ordinal='2' />
+            <column datatype='string' name='coverage' ordinal='3' />
+            <column datatype='string' name='education' ordinal='4' />
+            <column datatype='date' name='effective_to_date' ordinal='5' />
+            <column datatype='string' name='month' ordinal='6' />
+            <column datatype='string' name='employment_status' ordinal='7' />
+            <column datatype='string' name='gender' ordinal='8' />
+            <column datatype='integer' name='income' ordinal='9' />
+            <column datatype='string' name='location_code' ordinal='10' />
+            <column datatype='string' name='marital_status' ordinal='11' />
+            <column datatype='integer' name='monthly_premium_auto' ordinal='12' />
+            <column datatype='integer' name='months_since_last_claim' ordinal='13' />
+            <column datatype='integer' name='months_since_policy_inception' ordinal='14' />
+            <column datatype='integer' name='number_of_open_complaints' ordinal='15' />
+            <column datatype='integer' name='number_of_policies' ordinal='16' />
+            <column datatype='string' name='policy_type' ordinal='17' />
+            <column datatype='string' name='policy' ordinal='18' />
+            <column datatype='string' name='renew_offer_type' ordinal='19' />
+            <column datatype='string' name='sales_channel' ordinal='20' />
+            <column datatype='integer' name='total_claim_amount' ordinal='21' />
+            <column datatype='string' name='vehicle_class' ordinal='22' />
+            <column datatype='string' name='vehicle_size' ordinal='23' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>customer_lifetime_value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[customer_lifetime_value]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>customer_lifetime_value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>response</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[response]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>response</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>coverage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[coverage]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>coverage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>effective_to_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[effective_to_date]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>effective_to_date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>employment_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[employment_status]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>employment_status</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[income]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>income</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location_code]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>location_code</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>marital_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[marital_status]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>marital_status</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monthly_premium_auto</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[monthly_premium_auto]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>monthly_premium_auto</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>months_since_last_claim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[months_since_last_claim]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>months_since_last_claim</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>months_since_policy_inception</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[months_since_policy_inception]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>months_since_policy_inception</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_open_complaints</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_open_complaints]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>number_of_open_complaints</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_policies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_policies]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>number_of_policies</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[policy_type]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>policy_type</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[policy]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>policy</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>renew_offer_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[renew_offer_type]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>renew_offer_type</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sales_channel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sales_channel]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>sales_channel</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_claim_amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_claim_amount]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>total_claim_amount</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vehicle_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vehicle_class]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>vehicle_class</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vehicle_size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[vehicle_size]</local-name>
+            <parent-name>[Data_Marketing_Customer_Analysis_Round3.csv]</parent-name>
+            <remote-alias>vehicle_size</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Income (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='3' formula='[income]' peg='0' size='1669' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Data_Marketing_Customer_Analysis_Round3.csv' datatype='table' name='[__tableau_internal_object_id__].[Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE]' role='measure' type='quantitative' />
+      <column caption='Coverage' datatype='string' name='[coverage]' role='dimension' type='nominal' />
+      <column caption='Customer Lifetime Value' datatype='integer' name='[customer_lifetime_value]' role='measure' type='quantitative' />
+      <column caption='Education' datatype='string' name='[education]' role='dimension' type='nominal' />
+      <column caption='Effective To Date' datatype='date' name='[effective_to_date]' role='dimension' type='ordinal' />
+      <column caption='Employment Status' datatype='string' name='[employment_status]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Income' datatype='integer' name='[income]' role='measure' type='quantitative' />
+      <column caption='Location Code' datatype='string' name='[location_code]' role='dimension' type='nominal' />
+      <column caption='Marital Status' datatype='string' name='[marital_status]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='Monthly Premium Auto' datatype='integer' name='[monthly_premium_auto]' role='measure' type='quantitative' />
+      <column caption='Months Since Last Claim' datatype='integer' name='[months_since_last_claim]' role='measure' type='quantitative' />
+      <column caption='Months Since Policy Inception' datatype='integer' name='[months_since_policy_inception]' role='measure' type='quantitative' />
+      <column caption='Number Of Open Complaints' datatype='integer' name='[number_of_open_complaints]' role='measure' type='quantitative' />
+      <column caption='Number Of Policies' datatype='integer' name='[number_of_policies]' role='measure' type='quantitative' />
+      <column caption='Policy' datatype='string' name='[policy]' role='dimension' type='nominal' />
+      <column caption='Policy Type' datatype='string' name='[policy_type]' role='dimension' type='nominal' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Renew Offer Type' datatype='string' name='[renew_offer_type]' role='dimension' type='nominal' />
+      <column caption='Response' datatype='string' name='[response]' role='dimension' type='nominal' />
+      <column caption='Sales Channel' datatype='string' name='[sales_channel]' role='dimension' type='nominal' />
+      <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+      <column caption='Vehicle Class' datatype='string' name='[vehicle_class]' role='dimension' type='nominal' />
+      <column caption='Vehicle Size' datatype='string' name='[vehicle_size]' role='dimension' type='nominal' />
+      <column-instance column='[response]' derivation='None' name='[none:response:nk]' pivot='key' type='nominal' />
+      <column-instance column='[sales_channel]' derivation='None' name='[none:sales_channel:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:response:nk]' palette='sf_bluegrass' type='palette'>
+            <map to='#94e7a8'>
+              <bucket>&quot;yes&quot;</bucket>
+            </map>
+            <map to='#c7f296'>
+              <bucket>&quot;no&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:sales_channel:nk]' palette='sf_bluegrass' type='palette'>
+            <map to='#27aab0'>
+              <bucket>&quot;web&quot;</bucket>
+            </map>
+            <map to='#51d2bb'>
+              <bucket>&quot;call center&quot;</bucket>
+            </map>
+            <map to='#94e7a8'>
+              <bucket>&quot;branch&quot;</bucket>
+            </map>
+            <map to='#c7f296'>
+              <bucket>&quot;agent&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data_Marketing_Customer_Analysis_Round3.csv' id='Data_Marketing_Customer_Analysis_Round3.csv_78FE43B3D48945B0A13C281729C7CAEE'>
+            <properties context=''>
+              <relation connection='textscan.0nx18iy0zzywld10gdfhz0s4sck8' name='Data_Marketing_Customer_Analysis_Round3.csv' table='[Data_Marketing_Customer_Analysis_Round3#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES'>
+                  <column datatype='string' name='region' ordinal='0' />
+                  <column datatype='integer' name='customer_lifetime_value' ordinal='1' />
+                  <column datatype='string' name='response' ordinal='2' />
+                  <column datatype='string' name='coverage' ordinal='3' />
+                  <column datatype='string' name='education' ordinal='4' />
+                  <column datatype='date' name='effective_to_date' ordinal='5' />
+                  <column datatype='string' name='month' ordinal='6' />
+                  <column datatype='string' name='employment_status' ordinal='7' />
+                  <column datatype='string' name='gender' ordinal='8' />
+                  <column datatype='integer' name='income' ordinal='9' />
+                  <column datatype='string' name='location_code' ordinal='10' />
+                  <column datatype='string' name='marital_status' ordinal='11' />
+                  <column datatype='integer' name='monthly_premium_auto' ordinal='12' />
+                  <column datatype='integer' name='months_since_last_claim' ordinal='13' />
+                  <column datatype='integer' name='months_since_policy_inception' ordinal='14' />
+                  <column datatype='integer' name='number_of_open_complaints' ordinal='15' />
+                  <column datatype='integer' name='number_of_policies' ordinal='16' />
+                  <column datatype='string' name='policy_type' ordinal='17' />
+                  <column datatype='string' name='policy' ordinal='18' />
+                  <column datatype='string' name='renew_offer_type' ordinal='19' />
+                  <column datatype='string' name='sales_channel' ordinal='20' />
+                  <column datatype='integer' name='total_claim_amount' ordinal='21' />
+                  <column datatype='string' name='vehicle_class' ordinal='22' />
+                  <column datatype='string' name='vehicle_size' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Response by income'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Futura' fontsize='16'>Response by income</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_Marketing_Customer_Analysis_Round3' name='federated.040ltza0ie9qli15fo0vq1bb77hr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.040ltza0ie9qli15fo0vq1bb77hr'>
+            <column datatype='integer' name='[Income (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='3' formula='[income]' peg='0' size='1669' />
+            </column>
+            <column-instance column='[income]' derivation='Count' name='[cnt:income:qk]' pivot='key' type='quantitative' />
+            <column caption='Income' datatype='integer' name='[income]' role='measure' type='quantitative' />
+            <column-instance column='[Income (bin)]' derivation='None' name='[none:Income (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[income]' derivation='Sum' name='[sum:income:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:income:qk]' palette='tableau-map-temperatur' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:income:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.040ltza0ie9qli15fo0vq1bb77hr].[cnt:income:qk]</rows>
+        <cols>[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:Income (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.040ltza0ie9qli15fo0vq1bb77hr].[Income (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{5C790630-46AE-4B56-A5FD-62AC7678C483}' />
+    </worksheet>
+    <worksheet name='Response by the sales channel'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Futura'>Response by the sales channel</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_Marketing_Customer_Analysis_Round3' name='federated.040ltza0ie9qli15fo0vq1bb77hr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.040ltza0ie9qli15fo0vq1bb77hr'>
+            <column-instance column='[number_of_open_complaints]' derivation='Count' name='[cnt:number_of_open_complaints:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[response]' derivation='None' name='[none:response:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sales_channel]' derivation='None' name='[none:sales_channel:nk]' pivot='key' type='nominal' />
+            <column caption='Number Of Open Complaints' datatype='integer' name='[number_of_open_complaints]' role='measure' type='quantitative' />
+            <column caption='Response' datatype='string' name='[response]' role='dimension' type='nominal' />
+            <column caption='Sales Channel' datatype='string' name='[sales_channel]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:sales_channel:nk]' value='#f5f5f5' />
+            <format attr='background-color' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' value='#e6e6e6' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:sales_channel:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.040ltza0ie9qli15fo0vq1bb77hr].[cnt:number_of_open_complaints:qk]</rows>
+        <cols>([federated.040ltza0ie9qli15fo0vq1bb77hr].[none:sales_channel:nk] / [federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk])</cols>
+      </table>
+      <simple-id uuid='{BBCCE9B4-8A21-4EDB-AC4C-71585785DC26}' />
+    </worksheet>
+    <worksheet name='Response by the total claim amount'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Futura' fontsize='16'>Response by the total claim amount</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_Marketing_Customer_Analysis_Round3' name='federated.040ltza0ie9qli15fo0vq1bb77hr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.040ltza0ie9qli15fo0vq1bb77hr'>
+            <column-instance column='[total_claim_amount]' derivation='Count' name='[cnt:total_claim_amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_claim_amount]' derivation='Sum' name='[sum:total_claim_amount:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:total_claim_amount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.0099999997764825821' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.040ltza0ie9qli15fo0vq1bb77hr].[cnt:total_claim_amount:qk]</rows>
+        <cols>[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:total_claim_amount:qk]</cols>
+      </table>
+      <simple-id uuid='{F1571678-1544-4EF0-8B24-B6446EEA14A9}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2B5B90E4-694A-4D17-B873-89FFF3C7CEF3}' />
+    </worksheet>
+    <worksheet name='Total number of responses'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Futura' fontsize='16'>Show a plot of the total number of responses</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data_Marketing_Customer_Analysis_Round3' name='federated.040ltza0ie9qli15fo0vq1bb77hr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.040ltza0ie9qli15fo0vq1bb77hr'>
+            <column-instance column='[total_claim_amount]' derivation='Count' name='[cnt:total_claim_amount:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[response]' derivation='None' name='[none:response:nk]' pivot='key' type='nominal' />
+            <column caption='Response' datatype='string' name='[response]' role='dimension' type='nominal' />
+            <column-instance column='[total_claim_amount]' derivation='Sum' name='[sum:total_claim_amount:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Claim Amount' datatype='integer' name='[total_claim_amount]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[cnt:total_claim_amount:qk]' value='61' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' value='59' />
+            <format attr='color' data-class='total' value='#59a14f' />
+            <format attr='color' data-class='total' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' value='#000000' />
+            <format attr='color' field='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5f5f5' />
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' />
+              <lod column='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:total_claim_amount:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.3843094110488892' />
+                <format attr='mark-color' value='#9437ff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.040ltza0ie9qli15fo0vq1bb77hr].[cnt:total_claim_amount:qk]</rows>
+        <cols>[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]</cols>
+      </table>
+      <simple-id uuid='{06773C3F-C0E9-4695-88EB-DCC3C8F5A26A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='49200' x='50000' y='1000'>
+            <zone h='13250' id='5' param='horz' type-v2='layout-flow' w='49200' x='50000' y='1000'>
+              <zone h='13250' id='6' param='vert' type-v2='layout-flow' w='49200' x='50000' y='1000'>
+                <zone h='13250' id='7' param='horz' type-v2='layout-flow' w='49200' x='50000' y='1000'>
+                  <zone h='13250' id='9' name='Response by the sales channel' pane-specification-id='0' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:sales_channel:nk]' type-v2='color' w='16600' x='50000' y='1000'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='13250' id='11' name='Response by income' pane-specification-id='0' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:income:qk]' type-v2='color' w='16000' x='66600' y='1000'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='13250' id='14' name='Total number of responses' pane-specification-id='0' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' type-v2='color' w='16600' x='82600' y='1000'>
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+            <zone h='84750' id='10' name='Response by income' w='49200' x='50000' y='14250'>
+              <layout-cache minheight='198' type-h='scalable' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone h='49000' id='8' name='Response by the sales channel' w='49200' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='12' is-centered='0' type-v2='bitmap' w='24600' x='800' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49000' id='13' name='Total number of responses' w='24600' x='25400' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{20092820-B238-4E50-B69C-99B1168C1410}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total number of responses'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:response:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{43197FCD-3F1E-4C45-8EF9-E377416C9BE3}' />
+    </window>
+    <window class='worksheet' name='Response by the sales channel'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[none:sales_channel:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5B8E6CE5-0690-4507-B972-0841DCD6A377}' />
+    </window>
+    <window class='worksheet' name='Response by the total claim amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:total_claim_amount:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0D5EE43F-269B-46EF-9D6A-589E2DF04973}' />
+    </window>
+    <window class='worksheet' name='Response by income'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.040ltza0ie9qli15fo0vq1bb77hr].[sum:income:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{763B7FBB-89D1-412F-ADB0-8C38E007125A}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{99F836EC-2EE6-4092-9FD5-627457F771DC}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Response by income'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Response by the sales channel'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total number of responses'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{3D05B89B-6A46-40F6-A393-5B9B4B4022AA}' />
+    </window>
+  </windows>
+</workbook>
