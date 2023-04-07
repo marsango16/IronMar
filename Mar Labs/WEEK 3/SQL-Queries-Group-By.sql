@@ -23,3 +23,6 @@ GROUP BY staff.staff_id, staff.first_name, staff.last_name;
 
 -- 4 Query
 -- Using the film table, find out how many films there are of each rating.
+SELECT rating, COUNT(*) AS num_films
+FROM film
+GROUP BY rating;
